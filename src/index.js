@@ -6,5 +6,10 @@ let teacher = new Teacher('Jack', 45, 'Male', 'History');
 console.log('Student', student);
 console.log('Teacher', teacher);
 
-console.log(teacher.hello(teacher.name, teacher.age, teacher.subject));
-console.log(student.hello(student.name, student.age));
+// создаем элемент заголовка
+const heading = document.createElement('h1')
+heading.textContent = 'Как интересен этот Webpack!!'
+
+// добавляем заголовок в DOM
+const root = document.querySelector('#root')
+root.append(heading);

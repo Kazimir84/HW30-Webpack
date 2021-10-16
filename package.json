@@ -1,26 +1,22 @@
 {
-  "name": "hw30-webpack",
+  "name": "hw30",
   "version": "1.0.0",
   "description": "",
-  "main": "./src/index.js",
+  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack",
-    "watch": "webpack --watch"
+    "start": "webpack --watch",
+    "serve": "webpack-dev-server"
   },
-  "author": "",
+  "author": "Kazymyr",
   "license": "ISC",
   "devDependencies": {
-    "@babel/core": "^7.15.8",
-    "@babel/preset-env": "^7.15.8",
-    "babel-core": "^6.26.3",
-    "babel-loader": "^8.2.2",
-    "babel-preset-env": "^1.7.0",
-    "clean-webpack-plugin": "^4.0.0",
-    "css-loader": "^6.4.0",
-    "html-webpack-plugin": "^5.3.2",
-    "style-loader": "^3.3.0",
+    "html-webpack-plugin": "^5.4.0",
     "webpack": "^5.58.2",
-    "webpack-cli": "^4.9.0"
+    "webpack-cli": "^4.9.0",
+    "webpack-dev-server": "^4.3.1"
+  },
+  "dependencies": {
+    "serve": "^12.0.1"
   }
 }

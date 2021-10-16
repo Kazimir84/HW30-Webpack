@@ -1,2 +1,5 @@
 #Folfer dist
 dist/
+
+#Node
+node_modules/
